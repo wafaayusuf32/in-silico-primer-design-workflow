@@ -59,3 +59,41 @@ The selected primer pair was chosen based on:
 - Acceptable mispriming scores
 
 Additional primer pairs were generated; however, the selected pair showed optimal thermodynamic balance and clean complementarity metrics.
+
+---
+
+## Step 2 – Thermodynamic Validation (NEB Tm Calculator)
+
+### Objective
+Validate primer melting temperatures under realistic PCR buffer conditions using NEB Tm Calculator.
+
+### Tool Used
+NEB Tm Calculator (Q5 High-Fidelity DNA Polymerase)
+
+### Reaction Conditions
+- Polymerase: Q5 High-Fidelity DNA Polymerase
+- Primer concentration: 500 nM
+- Default NEB salt conditions (Q5 buffer system)
+
+### Results
+
+| Primer | Length | GC% | Tm (NEB) |
+|--------|--------|------|----------|
+| Forward | 20 nt | 55% | 67°C |
+| Reverse | 20 nt | 60% | 68°C |
+
+Recommended Annealing Temperature: **68°C**
+
+### Interpretation
+
+Compared to Primer3 (~60°C), NEB-calculated Tm values are higher because:
+
+- Primer3 uses generalized thermodynamic assumptions
+- NEB uses polymerase-specific buffer conditions
+- Salt concentration and primer concentration significantly influence Tm
+
+The 1°C difference between primers indicates excellent thermodynamic balance, ensuring synchronized annealing during PCR.
+
+![NEB Tm Result](results/step2_tm_validation/neb_tm_q5_result.png)
+
+
