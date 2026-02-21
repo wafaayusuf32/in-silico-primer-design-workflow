@@ -94,6 +94,6 @@ Compared to Primer3 (~60°C), NEB-calculated Tm values are higher because:
 
 The 1°C difference between primers indicates excellent thermodynamic balance, ensuring synchronized annealing during PCR.
 
-![NEB Tm Result](results/step2_tm_validation/neb_tm_q5_result.png)
+![NEB Tm Result](results/step2_tm_validation/neb_tm_q5_result.png.png)
 
 
