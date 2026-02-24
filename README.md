@@ -96,4 +96,37 @@ The 1°C difference between primers indicates excellent thermodynamic balance, e
 
 ![NEB Tm Result](results/step2_tm_validation/neb_tm_q5_result.png.png)
 
+## Step 3 – Specificity Assessment (Primer-BLAST)
+
+The primer pair designed using Primer3 was evaluated using NCBI Primer-BLAST 
+against the human reference genome (GRCh38.p14).
+
+### On-target amplification
+
+- Chromosome: 12
+- Gene: GAPDH (glyceraldehyde-3-phosphate dehydrogenase)
+- Expected product size: 1454 bp
+
+### Off-target amplification
+
+Multiple additional amplification products were predicted across several chromosomes, including:
+
+- Chromosome 5 (alpha-1b adrenergic receptor)
+- Chromosome 6 (uncharacterized region)
+- Chromosome X (multiple loci)
+- Chromosome 20 (protein phosphatase EYA2)
+- Chromosome 11 (olfactory receptors)
+- Chromosome 15 (zinc finger protein 609)
+- Chromosome 7
+- Chromosome 1
+- Chromosome 18
+
+Predicted off-target product sizes ranged from 292 bp to 1837 bp.
+
+### Conclusion
+
+Although the primer pair showed balanced Tm values and acceptable GC content, the presence of extensive off-target amplification indicates poor genome-wide specificity.
+
+Therefore, primer redesign was required.
+
 
