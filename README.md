@@ -129,5 +129,5 @@ Although the primer pair showed balanced Tm values and acceptable GC content, th
 
 Therefore, primer redesign was required.
 
-
+➡️ See redesigned primers in [Step 3B](step3b_primer_redesign.md)
 
