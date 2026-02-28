@@ -48,7 +48,7 @@ Primer-BLAST reported that all primer pairs were specific to the input template,
 
 A graphical overview of primer positions across the GAPDH transcript is shown below:
 
-![Primer-BLAST Graphical View](results/step3b_redesign/primerblast_redesign_visualization.png)
+![Primer-BLAST Graphical View](results/step3b_redesign/primerblast_redesign_visualization.png.png)
 
 ---
 
@@ -56,7 +56,7 @@ A graphical overview of primer positions across the GAPDH transcript is shown be
 
 The table below shows thermodynamic parameters and structural metrics for all five candidate primer pairs:
 
-![Primer-BLAST Detailed Report](results/step3b_redesign/primerblast_redesign_report.png)
+![Primer-BLAST Detailed Report](results/step3b_redesign/primerblast_redesign_report.png.png)
 
 ---
 
