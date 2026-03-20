@@ -46,3 +46,5 @@ No significant complementarity was observed between the forward and reverse prim
 
 #### Conclusion
 The reverse primer demonstrates acceptable structural stability, with no significant risk of hairpin formation, self-dimerization, or cross-dimerization. Therefore, it is suitable for PCR amplification.
+
+➡️ See final primer selection in [Step 5](step5_final_primer.md)
