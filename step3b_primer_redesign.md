@@ -93,3 +93,5 @@ Product Size: 227 bp
 The redesigned primers demonstrated improved thermodynamic balance and strong genome-wide specificity.
 
 Compared to the initial Primer3 design, the Primer-BLAST redesign successfully eliminated off-target amplification and produced a more reliable primer pair suitable for downstream PCR applications.
+
+➡️ See structural analysis in [Step 4](step4_oligoanalyzer_validation.md)
